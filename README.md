@@ -2,7 +2,7 @@
 
 ## Description
 
-Tomis is a space board game that utilizes a standard chess board and backgammon pieces.
+Tomis is a space board game that utilizes a standard chess board and backgammon/chess pieces.
 
 ## Game pieces (per player)
 
