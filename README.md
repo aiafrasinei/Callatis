@@ -1,36 +1,68 @@
-# Tomis
+# Callatis
 
-## Description
+by Afrasinei Alexandru Iulian
 
-Tomis is a space board game that utilizes a standard chess board and backgammon/chess pieces.
+## Introduction
 
-## Game pieces (per player)
+Callatis is a board game that utilizes a standard chess board and Callatis specific pieces.
 
-1 base (king)
-
-4 inactive gates (black backgammon pieces)
-
-4 active gates (white backgammon pieces)
-
-4 jump gates
-
-8 frigates (pawns)
-
-2 sentries (towers)
-
-2 towers (bishops)
-
-1 flagship (queen)
-  
-## Scope/Story
-
-In Tomis, two fleet commanders engage in a space battle.
+In Callatis, two fleet commanders engage in a space battle.
 
 The objective is to utilize the available structures and ships to defeat the enemy
 
 and destroy their base.
 
-## Initial placement
+## The elements of Callatis
+
+* one chess board (8x8)
+
+* White/Black
+    * Pieces shapes
+    
+        * 1 base (king, large box)
+
+        * 4 inactive gates (black backgammon pieces)
+
+        * 4 active gates (white backgammon pieces)
+
+        * 4 jump gates (white backgammon pieces, semicylinders)
+
+        * 8 frigates (pawns, half large box (positioned toward oponent (I)) )
+
+        * 2 sentries (towers, small boxes)
+
+        * 2 towers (bishops, medium boxes)
+
+        * 1 flagship (queen, triangle box)
+
+
+## The board
+
+A standard chess board (8x8).
+
+![Empty board](imgs/EmptyBoard.png)
+
+## The pieces
+
+### Base
+
+### Inactive gates
+
+### Active gates
+
+### Jump gates
+
+### Frigates
+
+### Sentries
+
+### Towers
+
+### Flagship
+
+## The rules of placement
+
+### Setup
 
 **Base**
 
@@ -58,129 +90,14 @@ Sentries and towers can be placed once all eight gates have been deployed.
 
 **Flagship**
 
-The flagship is only available after a frigate arrives on the back row of the enemy.
+The flagship is only available after a friendly frigate arrives on the back row of the enemy.
 
-## Attacks
+## Endgame
 
-Attack point = AP (Attack Point)
+## Credits, contact
 
-**AttackPoints:**
+Afrasinei Alexandru Iulian
 
-The base has no attack points.
+Email:
 
-Frigates, Sentries, Towers, Flagship (1 AP).
-
-**Attack Range:**
-
-The attack happens every turn for all pieces.
-
-Frigates 1 step
-
-Sentries,Towers and Flagship any nr of steps.
-
-**Attack effects:**
-
-A stalemate occurs when the attacker and defender have the same APs (no effects).
-
-An attack is successful if the number of APs is larger than the target's APs.
-
-After a successful attack, a piece is removed from the board.
-
-Frigate Attacks:
-
-    \ | /
-      #
-
-Sentry Attacks:
-
-    \ /
-     #
-    / \
-
-Tower Attacks:
-
-      |
-    - # -
-      |
-
-**Attack examples:**
-
-1 frigate vs. 1 frigate => stalemate (neither can destroy each other).
-
-2 frigates vs. 1 frigate => successful attack (2 AP vs. 1 AP).
-
-## Actions
-
-**Base**
-
-No actions.
-
-**Gate**
-
-Place a marker to transform an active gate into a jump gate.
-
-**Jump Gate**
-
-The default jump range is 2 (horizontal, vertical, or diagonal movement).
-
-Rotate the marker to determine the direction of the jump.
-
-2 APs are required o destroy a jump gate.
-
-**Frigates**
-
-Move 1 step forward or sideways (no backward movement).
-
-Can attack the front, left, or right.
-
-Each frigate has one AP.
-
-To capture a piece, two APs are required.
-
-Once on a gate, a frigate can choose to activate or deactivate it (replace the pieces).
-
-**Gate Jump:**
-
-Jump to the next or previous active gate (only 1 step).
-
-If the target gate has an enemy frigate, 2 APs are required to capture it by gate jump.
-
-If the target gate is inactive, no jump will be performed.
-
-**Gate Strike:**
-
-The frigate is on an active gate.
-
-The frigate can attack the upper/lower active gate in this configuration: x G x.
-
-Both the attacking frigate and the enemy frigate are destroyed.
-
-**Jump:**
-
-The frigate is next to a jump gate.
-
-The frigate will move 2 steps in the direction of the marker.
-
-A jump will not be performed if any of the passing rows have no gate.
-
-Modifying the direction of the marker takes one turn.
-
-If the gate has 2 markers the piece will jump 3 steps.
-
-**Sentries**
-
-Move similar to a bishop in chess.
-
-**Towers**
-
-Move similar to a tower in chess.
-
-**Flagship**
-
-Move similar to a queen in chess.
-
-## Win condition
-
-The game is won by destroying the enemy base.
-
-An enemy base is considered destroyed when three Attack Points (APs) are simultaneously applied to it.
+alexandruafrasinei@gmail.com
